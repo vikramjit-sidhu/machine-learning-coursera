@@ -6,7 +6,6 @@ function [error_train, error_val] = ...
 
 	m = size(X, 1); % Number of training examples
 	
-
 	error_train = zeros(m, 1);
 	error_val   = zeros(m, 1);
 	
